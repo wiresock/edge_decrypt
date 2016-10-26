@@ -188,5 +188,5 @@ void main()
 		printf("UnobfuscateData failed (%d)\n", dwRet);
 
 	RegCloseKey(hKey);
-	int ch = getchar();
+	_getch();
 } 
